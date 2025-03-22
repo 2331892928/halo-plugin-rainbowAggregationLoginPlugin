@@ -9,15 +9,15 @@ export default definePlugin({
     {
       parentName: "Root",
       route: {
-        path: "/example",
-        name: "Example",
+        path: "/rainbowAggregationLogin",
+        name: "rainbowAggregationLogin",
         component: HomeView,
         meta: {
-          title: "示例页面",
+          title: "彩虹聚合登录配置",
           searchable: true,
           menu: {
-            name: "示例页面",
-            group: "示例分组",
+            name: "彩虹聚合登录配置",
+            group: "湮灭网络",
             icon: markRaw(IconPlug),
             priority: 0,
           },

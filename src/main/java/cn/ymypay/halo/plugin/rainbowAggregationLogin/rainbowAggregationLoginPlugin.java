@@ -1,4 +1,4 @@
-package run.halo.starter;
+package cn.ymypay.halo.plugin.rainbowAggregationLogin;
 
 import org.springframework.stereotype.Component;
 import run.halo.app.plugin.BasePlugin;
@@ -13,9 +13,9 @@ import run.halo.app.plugin.PluginContext;
  * @since 1.0.0
  */
 @Component
-public class StarterPlugin extends BasePlugin {
+public class rainbowAggregationLoginPlugin extends BasePlugin {
 
-    public StarterPlugin(PluginContext pluginContext) {
+    public rainbowAggregationLoginPlugin(PluginContext pluginContext) {
         super(pluginContext);
     }
 

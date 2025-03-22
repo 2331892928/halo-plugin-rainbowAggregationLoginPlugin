@@ -5,7 +5,7 @@ plugins {
     id "run.halo.plugin.devtools" version "0.2.0"
 }
 
-group 'run.halo.starter'
+group 'cn.ymypay.halo.plugin.rainbowAggregationLogin'
 sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
@@ -53,4 +53,15 @@ build {
 
 halo {
     version = '2.20'
+    superAdminUsername = 'amen'
+    superAdminPassword = 'amenamen'
+    externalUrl = 'http://localhost:8090'
+    docker {
+        // windows 默认为 npipe:////./pipe/docker_engine
+        url = 'npipe:////./pipe/docker_engine'
+        apiVersion = '1.48'
+    }
+    port = 8090
+    debug = true
+    debugPort = 5005
 }
