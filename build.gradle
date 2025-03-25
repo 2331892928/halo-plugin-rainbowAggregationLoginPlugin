@@ -59,7 +59,7 @@ halo {
     docker {
         // windows 默认为 npipe:////./pipe/docker_engine
         url = 'npipe:////./pipe/docker_engine'
-        apiVersion = '1.48'
+        apiVersion = '1.47'
     }
     port = 8090
     debug = true

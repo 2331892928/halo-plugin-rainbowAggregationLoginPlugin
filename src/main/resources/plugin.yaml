@@ -12,6 +12,8 @@ spec:
     name: AMEN
     website: https://www.ymypay.cn
   logo: logo.png
+  settingName: rainbowAggregationLogin-settings
+  configMapName: rainbowAggregationLogin-configmap
   homepage: https://github.com/2331892928/halo-plugin-rainbowAggregationLoginPlugin#readme
   repo: https://github.com/2331892928/halo-plugin-rainbowAggregationLoginPlugin
   issues: https://github.com/2331892928/halo-plugin-rainbowAggregationLoginPlugin/issues

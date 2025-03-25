@@ -1,0 +1,58 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: rainbowAggregationLogin-settings
+spec:
+  forms:
+    - group: basic
+      label: 设置
+      formSchema:
+        - $formkit: "text"
+          name: "appurl"
+          label: "接口地址"
+          help: "必须以http://或https://开头，以/结尾"
+          validation: required
+        - $formkit: "text"
+          name: "appid"
+          label: "APPID"
+          validation: required
+        - $formkit: "text"
+          name: "appkey"
+          label: "APPKEY"
+          validation: required
+        - $formkit: "checkbox"
+          name: "cloginTypes"
+          label: "开启的登录方式（顺序无关排名）"
+          options:
+            - label: QQ
+              value: qq
+            - label: 微信
+              value: wx
+            - label: 支付宝
+              value: alipay
+            - label: Gitee
+              value: gitee
+            - label: GitHub
+              value: github
+            - label: 微博
+              value: sina
+            - label: 百度
+              value: baidu
+            - label: 抖音
+              value: douyin
+            - label: 华为
+              value: huawei
+            - label: 小米
+              value: xiaomi
+            - label: 谷歌
+              value: google
+            - label: 微软
+              value: microsoft
+            - label: Facebook
+              value: facebook
+            - label: Twitter
+              value: twitter
+            - label: 企业微信
+              value: wework
+            - label: 钉钉1
+              value: dingtalk

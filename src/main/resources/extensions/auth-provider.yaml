@@ -1,0 +1,15 @@
+apiVersion: auth.halo.run/v1alpha1
+kind: AuthProvider
+metadata:
+  name: QQ
+  labels:
+    auth.halo.run/auth-binding: "false"
+spec:
+  displayName: QQ
+  description: QQ
+  logo: /plugins/rainbowAggregationLogin/assets/static/qq.svg
+  website: https://www.ymypay.cn
+  authenticationUrl: /rainbowAggregationLogin/authorization/qq
+  method: post
+  rememberMeSupport: true
+  authType: form

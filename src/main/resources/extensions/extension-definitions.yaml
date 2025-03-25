@@ -1,0 +1,9 @@
+#apiVersion: plugin.halo.run/v1alpha1
+#kind: ExtensionDefinition
+#metadata:
+#  name: username-password-authentication-manager
+#spec:
+#  className: cn.ymypay.halo.plugin.rainbowAggregationLogin.point.UsernamePasswordAuthenticationManager
+#  displayName: Username password authentication manager
+#  type: SINGLETON
+#  description: "Provides a way to extend the username password authentication."
